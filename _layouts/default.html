@@ -48,12 +48,16 @@
          across Maryland during 2019-2023. We will combine crash records with precipitation observations from the same period and locations. 
          Our main question is whether precipitation helps explain daily crash counts after accounting for county and calendar patterns. <p>
         <p> Imports </p>
-          <p>import numpy as np
+        <div id="python">
+          <code>
+            import numpy as np
              import pandas as pd
              import matplotlib.pyplot as plt
              crash_summary_2019= pd.read_csv("CrashMap_data(2019).csv", low_memory=False)
              print(crash_summary_2019.shape)
-             crash_summary_2019.head()</p>
+             crash_summary_2019.head()
+            <code>
+              </div>
       </section>
       <footer>
         {% if site.github.is_project_page %}
